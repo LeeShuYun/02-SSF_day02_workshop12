@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate</title>
+</head>
+<body>
+    <h1>How many numbers do you wish to generate?</h1>
+    <!--th:action is a thymeleaf expression-->
+    <p>
+        <!-- hash # in html is void, we don't want to use action, we want to use th:action-->
+        <!-- -->
+        <form 
+        action ="#"
+        th:action="@{/rand/generate}"
+        th:object="${generateObj}"
+        method="post">
+        <!-- asterisk interpolates the attribute. Without it ${generateObj.numberVal}-->
+        <input type="text" th:field="*{numberVal}"/>
+        <input type="submit" th:field="Generate"/>
+    </p>
+</form>
+    
+</body>
+</html>

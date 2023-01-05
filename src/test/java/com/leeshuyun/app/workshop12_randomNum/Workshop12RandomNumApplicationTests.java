@@ -1,10 +1,10 @@
-package sg.edu.nus.iss.app.workshop11;
+package com.leeshuyun.app.workshop12_randomNum;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Workshop11ApplicationTests {
+class Workshop12RandomNumApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -8,13 +8,13 @@
 		<version>3.0.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>sg.edu.nus.iss.app</groupId>
-	<artifactId>workshop11</artifactId>
+	<groupId>com.leeshuyun.app</groupId>
+	<artifactId>workshop12_randomNum</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>workshop11</name>
-	<description>Demo project for Spring Boot</description>
+	<name>workshop12_randomNum</name>
+	<description>Random Number Generator Spring Boot project</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -37,7 +37,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
 	</dependencies>
 
 	<build>
